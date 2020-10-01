@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: white;
+}
+
+.header_container {
+    position: fixed;
+    background-color: #50CAFF;
+    width: 100%;
+    height: 55px;
+    font-size: 28px;
+    z-index: 10;
+}
+
+.header__inner {
+    display: flex;
+    max-height: 55px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
+
+.right_items {
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55px;
+    width: 190px;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    background-color: #003B72;
+}
+
+.name {
+    color: white;
+    padding-left: 40px;
+}
+
+.avatar {
+    border-radius: 100px;
+    border: 1px solid white;
+    outline-offset: 1px;
+}
+
+.content {
+    display: flex;
+    font-size: 14px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #003B72;
+    min-width: 190px;
+    min-height: 92vh;
+    margin-top: 55px;
+}
+
+.nav__list {
+    margin: 0;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.li_container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.li_img {
+    vertical-align: middle;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    padding-left: 14px;
+    vertical-align: middle;
+}
+
+.order {
+    background-color: #7761FF;
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    width: 150px;
+    color: white;
+    border-color: #7761FF;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+} 
+
+.help {
+    display: flex;
+    margin-top: auto;
+    height: 50px;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+}
+
+.img_logo {
+    width: 113px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    background-color:#FCFCFC;
+}
+
+.appointment {
+    display: flex;
+    align-items: center;
+    width: 132px;
+    height: 19px;
+    padding-top: 70px;
+    margin-left: 230px;
+}
+.appoint_img {
+    padding-right: 15px;
+    width: 18px;
+    height: 13px;
+}
+
+.appointment_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 190px;
+}
+
+.container_doctor {
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 435px;
+    height: 134px;
+    border-radius: 5px;
+    background: white; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); 
+}
+
+.container_doctor p {
+    font-size: 14px;
+    width: 280px;
+    line-height: 20px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.doctor {
+    display: flex;
+}
+
+.cancel {
+    background-color: #7761FF;
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    width: 98px;
+    color: white;
+    border-color: #7761FF;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.doctor_name {
+    margin-left: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doctor_name p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.role {
+    color: #EBE7FF;
+}
+
+.img_doctor {
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    width: 335px;
+    color: black;
+    font-weight: normal;
+    margin: 0;
+    border-bottom:  2px solid #EBE7FF;
+    line-height: 1.8;
+}
+
+h3 {
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    margin: 0;
+}
+
+#calendar2 {
+    width: 553px;
+    min-height: 481px;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 68px;
+    margin-top: 103px;
+  }
+  #calendar2 thead tr:last-child {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    background-color: #EBE7FF;
+  }
+  #calendar2 thead tr:nth-child(1) td:nth-child(2) {
+    color: white;
+    font-size: 14px;
+    background-color: #7761FF;
+  }
+
+  #calendar2 thead tr:nth-child(1) td:nth-child(1):hover, #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+    background-color: #7761FF;
+  }
+  
+  #calendar2 tbody td {
+    color: rgb(44, 86, 122);
+    background-color: #ffffff;
+  }
+  
+  #calendar2 tbody td.today {
+    border: 1px solid #50CAFF;
+    color: black;
+  } 
+
+  button:hover {
+    cursor: pointer;
+}
